@@ -1,0 +1,51 @@
+user type
+id, tipo e utilizador
+
+businesstype
+id, tipo de negocio
+
+clientes
+id, nome, sobrenome, telefone, id freguesia, email, password, tipo==3
+
+ilha
+id, nome da freguesia
+
+concelho
+id, id da ilha, nome do concelho
+
+freguesia
+id, id do concelho, nome da freguesia
+
+gestores
+id, nome, sobrenome, telefone, id freguesia, email, password, tipo
+
+imoveis
+id do imovel, id do gestor
+
+visitas
+id do cliente, id da propriedade, data, hora, estado
+
+property status
+id, estado da propriedade
+
+property type
+id, tipo da propriedade
+
+property typology
+id, tipologia da propriedade
+
+property{
+	[0]=> id,
+	[1]=> thumbnail,
+	[2]=> name,
+	[3]=> description,
+	[4]=> area,
+	[5]=> type,
+	[6]=> typology,
+	[7]=> business type,
+	[8]=> status,
+	[9]=> parish id,
+	[10]=> price,
+	[11]=> rooms,
+	[12]=> bathrooms
+}
